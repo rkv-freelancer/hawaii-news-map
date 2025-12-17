@@ -93,7 +93,7 @@ export default function Dashboard({
   const [sourceFilter, setSourceFilter] = useState("all");
 
   // TODO: To be removed - move to environment variable
-  maptilersdk.config.apiKey = "KHezeZXJ0finSFLjrRVL";
+  maptilersdk.config.apiKey = "";
 
   const hawaii = { lng: -157.8, lat: 21.3 };
   const zoom = 8.5;
